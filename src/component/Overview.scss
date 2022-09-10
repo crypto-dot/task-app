@@ -1,0 +1,73 @@
+.overview {
+
+    .tasks {
+        list-style: none;
+
+        .taskItem {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            border: 1px solid rgb(194, 194, 194);
+
+            .editIcon {
+                padding: 1rem;
+                cursor: pointer;
+            }
+
+            .itemNum {
+                padding-right: .5rem;
+            }
+
+            .editInput {
+                border: none;
+                outline: none;
+            }
+
+            .delete {
+                text-align: center;
+                cursor: pointer;
+                background-color: rgb(255, 0, 0);
+                border: none;
+                height: 1.5rem;
+                padding: .3rem;
+                border-radius: .1rem;
+
+                &:hover,
+                &:active {
+                    background-color: rgb(171, 58, 58);
+                }
+            }
+        }
+    }
+
+    .mainForm {
+
+        display: flex;
+        flex-direction: column;
+
+        .overviewInput {
+            border: none;
+            border-bottom: 1px solid black;
+            height: 2rem;
+            padding-bottom: 1rem;
+            font-size: 1.1rem;
+            outline: none;
+            margin-top: 2rem;
+        }
+
+        .overviewButton {
+            cursor: pointer;
+            color: white;
+            background-color: rgb(26, 26, 112);
+            border: none;
+            padding: 0.5rem 2rem;
+            margin-top: 1rem;
+            border-radius: .3rem;
+
+            &:hover,
+            &:active {
+                background-color: rgb(44, 44, 107);
+            }
+        }
+    }
+}
