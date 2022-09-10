@@ -1,3 +1,5 @@
+# Purpose 
+Practicing with state in React classes. Created a rudimentary task tool bar that allows users to add, edit, and delete specific task items.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
